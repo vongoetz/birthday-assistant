@@ -1,0 +1,13 @@
+<html>
+  <head></head>
+  <body>
+<p>{tfname}!</p>
+
+<p>HAPPY BIRTHDAY!!</p>
+
+<p>Here's wishing you the best of everything for a beautiful day, and the most incredible year yet!</p>
+<p>{tmsg}</p>
+
+<p>{ffname}</p>
+</body>
+</html>
