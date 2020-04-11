@@ -3,10 +3,10 @@ A small system to automatically send customized email messages for important peo
 
 Script uses real SMTP mail servers so messages are not flagged as spam. Uses gmail.com by default, but may be configured to any mail server that allows. 
 
-## Inspiration
+# Inspiration
 Written for a special loved one to help him manage important birthdays. :)
 
-## Usage
+# Usage
 **(1) Configure birthday information in CSV/birthdays.csv**
 
 - Sample file provided
@@ -22,23 +22,23 @@ The latter is, of course, not realistic. A future release should include a **not
 
 **(2) Add config.py file with single dictionary:**
 
-```sender_info = {
+`sender_info = {
     'fromName': 'XXXXX',
     'fromFname': 'XXXXX',
     'fromLname': 'XXXXX',
     'fromEmail': 'XXXXX',
     'emailPass': 'XXXXX'
-}```
+}`
 
 **(3) Configure email text in templates folder as HTML:**
 
-```<html>
+`<html>
   <head></head>
     <body><p>Build birthday message here!</p>
     <p>Use variables such as {tfname} or {ffname}.</p>
     <p> Insert {msg} here for custom message from spreadsheet</p>
     </body>
-</html>```
+</html>`
 
 **(4) Set up on cron or other automated client-side service.**
 
