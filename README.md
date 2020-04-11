@@ -1,5 +1,7 @@
 # Birthday Assistant
-A small system to automatically send customized email messages for important peoples' birthdays! Script pulls from spreadsheet that lists birthday information, and automatically deploys emails if the birthdate matches today. 
+A small system to automatically send customized email messages for important peoples' birthdays! 
+
+Script pulls from spreadsheet that lists birthday information, and automatically deploys emails if the birthdate matches today. 
 
 Script uses real SMTP mail servers so messages are not flagged as spam. Uses gmail.com by default, but may be configured to any mail server that allows. 
 
